@@ -2,7 +2,7 @@
 
 Job-focused personal site for hiring managers and recruiters.
 
-**Live (GitHub Pages):** https://tarmuhu.github.io/cpsc349-portfolio/
+**Live (GitHub Pages):** https://tarmuhu.github.io/portfolio/
 
 ## What’s here
 

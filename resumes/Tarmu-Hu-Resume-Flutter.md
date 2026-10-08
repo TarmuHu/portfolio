@@ -1,6 +1,6 @@
 # Tarmu Hu
 
-mumujhju@gmail.com | [GitHub](https://github.com/TarmuHu) | [LinkedIn](https://www.linkedin.com/in/tarmu-hu-2b7948200/) | [Portfolio](https://tarmuhu.github.io/cpsc349-portfolio/)
+mumujhju@gmail.com | [GitHub](https://github.com/TarmuHu) | [LinkedIn](https://www.linkedin.com/in/tarmu-hu-2b7948200/) | [Portfolio](https://tarmuhu.github.io/portfolio/)
 
 ## Summary
 
