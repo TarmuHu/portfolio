@@ -1,41 +1,25 @@
-# Personal Portfolio Website – CPSC 349 Project
+# Tarmu Hu — Portfolio
 
-This is my personal portfolio website created for the CPSC 349 Web Development course. It showcases my background, skills, and projects through a modern and responsive design using HTML, CSS, and JavaScript.
+Job-focused personal site for hiring managers and recruiters.
 
----
+**Live (GitHub Pages):** https://tarmuhu.github.io/cpsc349-portfolio/
 
-## 🌐 Live Website
+## What’s here
 
-The portfolio is deployed using **GitHub Pages** and can be accessed here:
+- `index.html` — single-page portfolio (projects, experience, skills, education, contact)
+- `css/main.css` / `js/main.js` — styles and light motion
+- `resumes/` — PDF + Markdown resume variants (SWE, QA, Flutter, Mobile, IT)
+- `images/` — project screenshots
+- `archive/legacy-course-2025/` — original CPSC 349 multi-page site (not deleted)
 
-🔗 [https://tarmuhu.github.io/cpsc349-portfolio/](https://tarmuhu.github.io/cpsc349-portfolio/)
-
-
----
-
-## 🚀 How to Run the Project From Scratch
-
-> Follow these steps to run the project locally on any computer.
-
-### 1. Clone the Repository
-
-If you haven’t already, install **Git**: https://git-scm.com/downloads
-
-Then open your terminal or PowerShell and run:
+## Local preview
 
 ```bash
-git clone https://github.com/your-username/cpsc349-portfolio.git
+python3 -m http.server 5500 --bind 127.0.0.1
 ```
 
-### 2. Navigate to the Project Folder
+Open http://127.0.0.1:5500/
 
-```bash
-cd cpsc349-portfolio
-```
+## Deploy
 
-### 3. Open the Website
-Open the index.html file in your web browser:
-
-**Option 1:** Double-click **index.html** in the project folder
-
-**Option 2:** Right-click **index.html** → Open with → your browser
+Push `main` to GitHub; Pages serves from the repository root.

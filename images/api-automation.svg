@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" role="img" aria-label="API automation abstract">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1a22"/>
+      <stop offset="100%" stop-color="#155e53"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="660" fill="url(#bg)"/>
+  <g fill="none" stroke="#e8eef2" stroke-opacity="0.22" stroke-width="2">
+    <path d="M80 140h280v80H80z"/>
+    <path d="M420 140h180v80H420z"/>
+    <path d="M660 140h220v80H660z"/>
+    <path d="M80 300h360v80H80z"/>
+    <path d="M500 300h380v80H500z"/>
+    <path d="M80 460h220v80H80z"/>
+    <path d="M360 460h240v80H360z"/>
+    <path d="M660 460h220v80H660z"/>
+    <path d="M220 220v80M510 220v80M770 220v80M260 380v80M480 380v80M770 380v80"/>
+  </g>
+  <text x="80" y="96" fill="#e8eef2" font-family="Georgia, serif" font-size="42">API � CI � Reports</text>
+  <text x="80" y="580" fill="#9fd0c6" font-family="monospace" font-size="24">7 endpoints � 62 cases � daily schedule</text>
+</svg>

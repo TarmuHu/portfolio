@@ -1,65 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Tarmu Hu</title>
-    <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarmu Hu — Software Engineer</title>
+  <meta name="description" content="Tarmu Hu — CS graduate seeking junior software engineer and QA roles. Product experience, API test automation, CI, AWS Cloud Practitioner." />
+  <meta property="og:title" content="Tarmu Hu — Software Engineer" />
+  <meta property="og:description" content="Resume, projects, and contact for junior software engineering and QA roles." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
 </head>
-
 <body>
-    <div class="page-wrapper">
-        <header>
-            <h1>Tarmu Hu</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <div class="dropdown">
-                    <a href="#">Projects</a>
-                    <div class="dropdown-content">
-                        <a href="projects.html"><strong>All Projects</strong></a>
-                        <a href="hibernate.html">Hibernate App</a>
-                        <a href="pong.html">Pong Game</a>
-                        <a href="rps.html">Rock Paper Scissors</a>
-                    </div>
-                </div>
-                <a href="skills.html">Skills</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <a class="skip-link" href="#find">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="logo" href="#top">Tarmu Hu</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="resumes/Tarmu-Hu-Resume.pdf" download>Resume PDF</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-inner">
+        <p class="hero-brand">Tarmu Hu</p>
+        <h1 class="hero-title">Software engineer</h1>
+        <p class="hero-lede">
+          CS graduate (Cal State Fullerton) who ships product features and backs them with automated API checks in CI.
+          Looking for junior software engineer or QA / SDET roles.
+        </p>
+
+        <div id="find" class="action-groups">
+          <div class="action-group">
+            <p class="action-label">Get</p>
+            <div class="action-row">
+              <a class="btn-action btn-action-primary" href="resumes/Tarmu-Hu-Resume.pdf" download>Download resume</a>
+              <a class="btn-action" href="mailto:mumujhju@gmail.com">Email me</a>
+            </div>
+          </div>
+          <div class="action-group">
+            <p class="action-label">Profiles</p>
+            <div class="action-row">
+              <a class="text-action" href="https://github.com/TarmuHu" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+              <a class="text-action" href="https://www.linkedin.com/in/tarmu-hu-2b7948200/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            </div>
+          </div>
+          <div class="action-group">
+            <p class="action-label">On this page</p>
+            <div class="action-row">
+              <a class="text-action" href="#projects">Projects</a>
+              <a class="text-action" href="#skills">Skills</a>
+              <a class="text-action" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+
+        <dl class="glance">
+          <div>
+            <dt>Open to</dt>
+            <dd>SWE · QA / SDET</dd>
+          </div>
+          <div>
+            <dt>Education</dt>
+            <dd>B.S. CS · CSUF · GPA 3.61</dd>
+          </div>
+          <div>
+            <dt>Cert</dt>
+            <dd>AWS Cloud Practitioner</dd>
+          </div>
+          <div>
+            <dt>Highlight</dt>
+            <dd>API tests in daily CI</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Projects</h2>
+          <p>Start here if you want proof. Links go straight to GitHub or email.</p>
         </header>
 
-        <main class="fade-in">
-            <p>Software Developer | Game Developer | Programmer</p>
-            <h2>Welcome to My Portfolio</h2>
-            <img src="images/20191217.jpg" alt="Photo of Tarmu" width="200" />
-            <div class="centered-block">
-                <p>
-                    Hi, I'm Tarmu Hu, a recent Computer Science graduate from Cal State Fullerton with a strong passion for
-                    programming and software development.
-                </p>
-                <p>
-                    I have hands-on experience in software development, particularly in mobile app development using
-                    Flutter
-                    and Firebase. I enjoy solving real-world problems through code and working collaboratively in
-                    team-based
-                    projects.
-                </p>
-                <p>
-                    In addition to my technical work, I have a passion for magic performance and creative storytelling,
-                    blending technology with entertainment. I'm always eager to learn new tools and improve my skills
-                    across
-                    different platforms.
-                </p>
+        <ol class="work-list">
+          <li>
+            <div class="work-index">01</div>
+            <div class="work-body">
+              <div class="work-top">
+                <h3>Restful-Booker API Automation</h3>
+                <p class="work-meta">QA / CI · Postman · Newman · GitHub Actions</p>
+              </div>
+              <p>
+                Automated <strong>7 endpoints</strong> with <strong>62 data-driven cases</strong> (positive, negative, edge).
+                Runs on push/PR, <strong>every day at 00:00 UTC</strong>, and on demand. HTML + JUnit reports as CI artifacts.
+              </p>
+              <a class="link" href="https://github.com/TarmuHu/restful-booker-api-testing" target="_blank" rel="noopener noreferrer">github.com/TarmuHu/restful-booker-api-testing</a>
             </div>
-        </main>
-    </div>
+          </li>
 
-    <footer>
-        <p>&copy; 2025 Tarmu Hu</p>
-    </footer>
+          <li>
+            <div class="work-index">02</div>
+            <div class="work-body">
+              <div class="work-top">
+                <h3>Hibernate — product engineering</h3>
+                <p class="work-meta">The Sleeping Bears · Flutter · Firebase · RevenueCat</p>
+              </div>
+              <p>
+                Co-built a children’s music &amp; stories app with a senior engineer, PM, and designer.
+                Owned UI for sign-up / explore / premium, auth + Firestore sync, and in-app purchases.
+                Still in internal testing — demo on request.
+              </p>
+              <div class="work-links">
+                <a class="link" href="mailto:mumujhju@gmail.com?subject=Hibernate%20demo%20request">Request demo</a>
+                <a class="link" href="images/hibernate-screenshot2.png" target="_blank" rel="noopener noreferrer">UI screenshot</a>
+              </div>
+            </div>
+          </li>
 
-    <script src="js/scripts.js"></script>
+          <li>
+            <div class="work-index">03</div>
+            <div class="work-body">
+              <div class="work-top">
+                <h3>Midnight ZK API Gateway</h3>
+                <p class="work-meta">Hackathon · API auth · ZK concepts</p>
+              </div>
+              <p>
+                Short PoC on privacy-preserving API authentication using zero-knowledge ideas.
+              </p>
+              <a class="link" href="https://github.com/TarmuHu/midnight-zk-api-gateway" target="_blank" rel="noopener noreferrer">github.com/TarmuHu/midnight-zk-api-gateway</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Experience</h2>
+        </header>
+
+        <div class="exp-block">
+          <div class="exp-head">
+            <h3>Barista · Starbucks</h3>
+            <p class="exp-date">Feb 2026 – Present</p>
+          </div>
+          <ul>
+            <li>Customer service and ops standards in a high-volume store.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Skills</h2>
+          <p>Only tools I can talk through in an interview.</p>
+        </header>
+
+        <table class="skills-table">
+          <tbody>
+            <tr>
+              <th scope="row">Languages</th>
+              <td>Python, Java, C++, Dart</td>
+            </tr>
+            <tr>
+              <th scope="row">Quality &amp; CI</th>
+              <td>Postman, Newman, data-driven testing, GitHub Actions, HTML/JUnit reports</td>
+            </tr>
+            <tr>
+              <th scope="row">App / services</th>
+              <td>Flutter, Firebase Auth, Cloud Firestore, RevenueCat</td>
+            </tr>
+            <tr>
+              <th scope="row">Tools</th>
+              <td>Git, GitHub, Jira, Figma</td>
+            </tr>
+            <tr>
+              <th scope="row">Cloud</th>
+              <td>AWS Certified Cloud Practitioner</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Education &amp; certs</h2>
+        </header>
+        <div class="edu-grid">
+          <div>
+            <h3>B.S. Computer Science</h3>
+            <p>California State University, Fullerton<br />Aug 2023 – May 2025 · GPA 3.61</p>
+          </div>
+          <div>
+            <h3>A.S. Computer Science</h3>
+            <p>Orange Coast College<br />Jan 2020 – May 2023 · GPA 3.73</p>
+          </div>
+          <div>
+            <h3>AWS Cloud Practitioner</h3>
+            <p>
+              Issued Oct 2025 · Expires Oct 2028<br />
+              <a class="link" href="https://www.credly.com/badges/64a16baa-9a7e-4466-888e-3bca89dc80f8/public_url" target="_blank" rel="noopener noreferrer">View Credly badge</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-inner">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p>Hiring for junior SWE or QA? Email is fastest.</p>
+        </header>
+        <ul class="contact-list">
+          <li><span>Email</span> <a href="mailto:mumujhju@gmail.com">mumujhju@gmail.com</a></li>
+          <li><span>LinkedIn</span> <a href="https://www.linkedin.com/in/tarmu-hu-2b7948200/" target="_blank" rel="noopener noreferrer">linkedin.com/in/tarmu-hu-2b7948200</a></li>
+          <li><span>GitHub</span> <a href="https://github.com/TarmuHu" target="_blank" rel="noopener noreferrer">github.com/TarmuHu</a></li>
+          <li><span>Resume</span> <a href="resumes/Tarmu-Hu-Resume.pdf" download>Tarmu-Hu-Resume.pdf</a></li>
+          <li><span>Variants</span> <a href="https://github.com/TarmuHu/cpsc349-portfolio/tree/main/resumes" target="_blank" rel="noopener noreferrer">SWE / QA / Flutter / Mobile / IT (Markdown)</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span data-year></span> Tarmu Hu</p>
+    <p><a href="archive/legacy-course-2025/index.html">Archived course portfolio</a></p>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
